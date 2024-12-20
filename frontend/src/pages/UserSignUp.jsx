@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import  {DataContext}  from "../context/UserContext";
+import { DataContext } from "../context/UserContext";
 
 const UserSignUp = () => {
   const [email, setEmail] = useState("");
@@ -17,8 +17,8 @@ const UserSignUp = () => {
 
     const newUser = {
       fullname: {
-        firstname:firstName,
-        lastname:lastName,
+        firstname: firstName,
+        lastname: lastName,
       },
       email,
       password,
