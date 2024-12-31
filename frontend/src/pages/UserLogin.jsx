@@ -28,6 +28,9 @@ const UserLogin = () => {
       localStorage.setItem("token", data.token);
       navigate("/home");
     }
+
+    setEmail('')
+    setPassword('')
   };
 
   return (

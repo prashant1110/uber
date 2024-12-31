@@ -18,7 +18,7 @@ function App() {
       <Route path="/captain-signup" element={<CaptainSignUp />} />
       <Route
         path="/home"
-        element={
+        element={ 
           <UserProtectWrapper>
             <Home />
           </UserProtectWrapper>
