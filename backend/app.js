@@ -15,6 +15,6 @@ app.use(express.urlencoded({ extended: true }));
 connectToDB();
 
 app.use("/users", userRoutes);
-app.use("/captain",captainRoutes)
+app.use("/captains",captainRoutes)
 
 module.exports = app;
